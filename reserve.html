@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Page</title>
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
+    <h1>Reserve Seat</h1>
+    <nav>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="reserve.html" class="active">Reserve your seat</a></li>
+        <li><a href="giftcard.html">Gift Card</a></li>
+      </ul>
+    </nav>
+    <h2>Menu</h2>
+
+    <h2>Breakfast</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Dish</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pancakes</td>
+          <td>Fluffy pancakes with syrup</td>
+          <td>$5.99</td>
+        </tr>
+        <tr>
+          <td>Omelette</td>
+          <td>Cheese and ham omelette</td>
+          <td>$6.99</td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>Freshly brewed coffee</td>
+          <td>$2.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Lunch Menu</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Dish</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pancakes</td>
+          <td>Fluffy pancakes with syrup</td>
+          <td>$5.99</td>
+        </tr>
+        <tr>
+          <td>Omelette</td>
+          <td>Cheese and ham omelette</td>
+          <td>$6.99</td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>Freshly brewed coffee</td>
+          <td>$2.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Dinner Menu</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Dish</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pancakes</td>
+          <td>Fluffy pancakes with syrup</td>
+          <td>$5.99</td>
+        </tr>
+        <tr>
+          <td>Omelette</td>
+          <td>Cheese and ham omelette</td>
+          <td>$6.99</td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>Freshly brewed coffee</td>
+          <td>$2.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Reservation</h2>
+    <form action="#">
+        <label for="meal">Choose a meal:</label>
+        <select id="meal" name="meal" required>
+          <option value="breakfast">Breakfast</option>
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+        </select>
+        <br><br>
+        <label for="time">Reservation Time:</label>
+        <input type="time" id="time" name="time" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

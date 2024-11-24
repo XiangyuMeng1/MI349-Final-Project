@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
+    <h1>Apply for your Gift Card</h1>
+    <nav>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="reserve.html">Reserve your seat</a></li>
+        <li><a href="giftcard.html" class="active">Gift Card</a></li>
+      </ul>
+    </nav>
+    <form action="none" method="get">
+      <div class="giftcardform">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      </div>
+      <div class="giftcardform">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div class="giftcardform">
+          <label for="giftcard">Choose Your Gift Card</label>
+          <select id="giftcard" name="giftcard">
+            <option value="25">$20 Gift Card + $5 Bonus</option>
+            <option value="60">$50 Gift Card + $10 Bonus</option>
+            <option value="125">$100 Gift Card + $25 Bonus</option>
+          </select>
+      </div>
+      <div class="giftcardform">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" rows="5" cols="50">Enter your current address</textarea>
+      </div>
+      <div class="giftcardform">
+          <input type="submit" value="Buy Now">
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
