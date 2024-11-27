@@ -8,101 +8,118 @@
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Reserve Seat</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">About Us</a></li>
-        <li><a href="reserve.html" class="active">Reserve your seat</a></li>
-        <li><a href="giftcard.html">Gift Card</a></li>
-      </ul>
-    </nav>
-    <h2>Menu</h2>
+    <div class="header-container">
+      <div class="title-container">
+        <img src="images/Icon.png" alt="Logo" class="logo">
+        <h1>Courtyard Tea House</h1>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="reserve.html" class="active">Order/Reserve</a></li>
+          <li><a href="giftcard.html">Gift Card</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="menu-container">
+      <h2 class="menu-title">Menu</h2>
+      <div class="menu-section">
+        <div class="menu-category">
+          <h3>Breakfast</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Dish</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Steamed Buns</td>
+                <td>Filled with sweet red bean paste</td>
+                <td>$3.99</td>
+              </tr>
+              <tr>
+                <td>Jasmine Tea Set</td>
+                <td>Jasmine tea with a side of tea cookies</td>
+                <td>$5.99</td>
+              </tr>
+              <tr>
+                <td>Congee with Side Dishes</td>
+                <td>Rice porridge with pickles and peanuts</td>
+                <td>$4.50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    
+        <div class="menu-category">
+          <h3>Lunch</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Dish</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sesame Noodles</td>
+                <td>Noodles tossed with sesame sauce</td>
+                <td>$7.99</td>
+              </tr>
+              <tr>
+                <td>Dim Sum Platter</td>
+                <td>Platter with steamed dumplings, buns, and spring rolls</td>
+                <td>$9.50</td>
+              </tr>
+              <tr>
+                <td>Chrysanthemum Tea</td>
+                <td>Refreshing floral tea</td>
+                <td>$4.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    
+        <div class="menu-category">
+          <h3>Dinner</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Dish</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hot Pot</td>
+                <td>Hot pot with fresh vegetables and tofu</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td>Grilled Teriyaki Salmon</td>
+                <td>Grilled Salmon with teriyaki sauce, served with rice</td>
+                <td>$14.99</td>
+              </tr>
+              <tr>
+                <td>Oolong Tea</td>
+                <td>olong tea with a rich, roasted flavor</td>
+                <td>$5.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
 
-    <h2>Breakfast</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Dish</th>
-          <th>Description</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Steamed Buns</td>
-          <td>Soft buns filled with sweet red bean paste</td>
-          <td>$3.99</td>
-        </tr>
-        <tr>
-          <td>Jasmine Tea Set</td>
-          <td>Freshly brewed jasmine tea with a side of tea cookies</td>
-          <td>$5.99</td>
-        </tr>
-        <tr>
-          <td>Congee with Side Dishes</td>
-          <td>Warm rice porridge served with pickles and peanuts</td>
-          <td>$4.50</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Lunch Menu</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Dish</th>
-          <th>Description</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sesame Noodles</td>
-          <td>Cold noodles tossed with sesame sauce and fresh vegetables</td>
-          <td>$7.99</td>
-        </tr>
-        <tr>
-          <td>Dim Sum Platter</td>
-          <td>Selection of steamed dumplings, buns, and spring rolls</td>
-          <td>$9.50</td>
-        </tr>
-        <tr>
-          <td>Chrysanthemum Tea</td>
-          <td>Refreshing floral tea served hot or cold</td>
-          <td>$4.00</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Dinner Menu</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Dish</th>
-          <th>Description</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Herbal Hot Pot</td>
-          <td>Light and flavorful hot pot with a variety of fresh vegetables and tofu</td>
-          <td>$12.99</td>
-        </tr>
-        <tr>
-          <td>Grilled Teriyaki Salmon</td>
-          <td>Salmon fillet glazed with teriyaki sauce, served with rice</td>
-          <td>$14.99</td>
-        </tr>
-        <tr>
-          <td>Oolong Tea</td>
-          <td>Premium oolong tea with a rich, roasted flavor</td>
-          <td>$5.00</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Reservation</h2>
+    <h2 class="reservation-title">Reservation</h2>
     <form action="#">
         <label for="meal">Choose a meal:</label>
         <select id="meal" name="meal" required>
