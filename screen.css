@@ -239,7 +239,7 @@ th {
 }
 
 @media (max-width: 780px) {
-    .menu-section {
+.menu-section {
         flex-direction: column;
         gap: 20px;
     }
